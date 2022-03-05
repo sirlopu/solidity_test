@@ -21,6 +21,12 @@ my_address = "0x94B806BB0e455576ea46193D9DBbB08d1cc57Da9"
 private_key = os.getenv("PRIVATE_KEY")
 ```
 
+NETWORK ID (chain_id)
+```python
+CHAIN_ID = 4 # rikeby test network
+CHAIN_ID_LOCAL=1337 # local ganache network
+```
+
 To set your private key as an environment variable, create .env file in your project with the PRIVATE_KEY variable
 
 ```python
